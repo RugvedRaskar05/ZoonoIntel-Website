@@ -1,24 +1,36 @@
-export default function Home() {
-  return (
-    <main style={{ padding: "40px", textAlign: "center", color: "white" }}>
-      <img
-        src="https://i.imgur.com/H6mWX4Z.png"
-        alt="ZoonoIntel Logo"
-        style={{
-          width: "100%",
-          maxWidth: "900px",
-          borderRadius: "16px",
-          boxShadow: "0 0 25px rgba(0, 174, 239, 0.55)",
-          marginBottom: "25px",
-        }}
-      />
-      <h1>ZoonoIntel</h1>
-      <p style={{ fontSize: "18px", maxWidth: "700px", margin: "0 auto" }}>
-        The AI-powered zoonotic spillover risk intelligence platform.
-      </p>
+// app/layout.js
+import './globals.css';
+import Footer from './components/Footer';
 
-      <a href="/app">Launch App</a>
-    </main>
+export const metadata = {
+  title: 'ZoonoIntel',
+  description: 'AI-powered zoonotic spillover intelligence platform',
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body className="app-body">
+        <div className="background-video-container">
+          <video
+            className="background-video"
+            autoPlay
+            muted
+            loop
+            playsInline
+          >
+            <source src="/background.webm" type="video/webm" />
+            <source src="/background.mp4" type="video/mp4" />
+          </video>
+          <div className="background-overlay" />
+        </div>
+
+        <div className="app-content">
+          {children}
+          <Footer />
+        </div>
+      </body>
+    </html>
   );
 }
 
