@@ -140,3 +140,118 @@
     box-shadow: 0 0 18px rgba(0, 174, 239, 0.7);
   }
 }
+
+/* NAV BAR */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 64px;
+  padding: 0 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  backdrop-filter: blur(12px);
+  background: rgba(2, 6, 23, 0.55);
+  border-bottom: 1px solid rgba(148, 163, 184, 0.25);
+  z-index: 10;
+}
+
+.nav-left {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #00aef3;
+}
+
+.nav-right {
+  display: flex;
+  gap: 22px;
+}
+
+.nav-link {
+  color: #e2e8f0;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #00aef3;
+  text-shadow: 0 0 8px rgba(0, 174, 239, 0.6);
+}
+
+/* Fade-up animation */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply fade-up to content sections */
+.content-section {
+  animation: fadeUp 1.1s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes neonGlow {
+  from {
+    text-shadow: 0 0 4px rgba(0, 174, 239, 0.4);
+  }
+  to {
+    text-shadow: 0 0 10px rgba(0, 174, 239, 0.9);
+  }
+}
+
+.nav-link:hover {
+  animation: neonGlow 0.4s ease-in-out forwards;
+}
+
+/* Parallax effect on background video */
+.background-video {
+  transform: scale(1.05);
+  animation: slowParallax 18s ease-in-out infinite alternate;
+}
+
+@keyframes slowParallax {
+  from {
+    transform: scale(1.05) translateY(0px);
+  }
+  to {
+    transform: scale(1.08) translateY(12px);
+  }
+}
+
+.navbar {
+  animation: navFade 1s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes navFade {
+  from {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-logo {
+  animation: logoGlow 4s ease-in-out infinite alternate;
+}
+
+@keyframes logoGlow {
+  from {
+    box-shadow: 0 0 25px rgba(0, 174, 239, 0.55);
+  }
+  to {
+    box-shadow: 0 0 45px rgba(0, 174, 239, 0.85);
+  }
+}
