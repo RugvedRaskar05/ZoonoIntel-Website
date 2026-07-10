@@ -21,11 +21,12 @@ export default function RootLayout({ children }) {
             loop
             playsInline
           >
-            <source src="/background.webm" type="video/webm" />
             <source src="/background.mp4" type="video/mp4" />
           </video>
-          <div className="background-overlay" />
         </div>
+
+        {/* Neon overlay (must be OUTSIDE the video container) */}
+        <div className="background-overlay"></div>
 
         {/* Navigation Bar */}
         <nav className="navbar">
