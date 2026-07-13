@@ -49,3 +49,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+<div className="animated-bg"></div>
