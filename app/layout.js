@@ -50,4 +50,5 @@ export default function RootLayout({ children }) {
   );
 }
 
-<div className="animated-bg"></div>
+<div className="cyber-bg"></div>
+
