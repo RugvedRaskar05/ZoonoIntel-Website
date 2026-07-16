@@ -29,12 +29,14 @@ export default function RootLayout({ children }) {
         {/* Main Content */}
         <div className="app-content">
           {children}
+          <Footer />
         </div>
 
       </body>
     </html>
   );
 }
+
 
         {/* Navigation Bar */}
         <nav className="navbar">
