@@ -14,6 +14,26 @@ export default function RootLayout({ children }) {
 
         {/* Background */}
         <div className="animated-bg"></div>
+    
+  .animated-bg {
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(120deg, #00111f, #002b45, #003b5c, #001f33);
+  background-size: 400% 400%;
+  animation: nebulaShift 18s ease infinite;
+  z-index: -3;
+}
+
+@keyframes nebulaShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.app-body {
+  background: transparent;
+}
+
 
         {/* Navigation Bar */}
         <nav className="navbar">
