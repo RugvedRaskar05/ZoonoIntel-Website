@@ -4,7 +4,7 @@
   padding: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   color: #ffffff;
-  background-color: #020617; /* fallback */
+  background-color: transparent; /* let animated-bg be visible */
 }
 
 .particles {
