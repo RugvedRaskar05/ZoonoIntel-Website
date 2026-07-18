@@ -1,6 +1,6 @@
 // app/layout.js
 import './globals.css';
-import Footer from './components/Footer';
+import Footer from '../components/Footer';
 
 export const metadata = {
   title: 'ZoonoIntel',
