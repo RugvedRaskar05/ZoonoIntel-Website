@@ -3,12 +3,6 @@ import './globals.css';
 import Footer from './components/Footer';
 
 export const metadata = {
-  icons: {
-    icon: '/favicon.ico',
-  },
-};
-
-export const metadata = {
   title: 'ZoonoIntel',
   description: 'AI-powered zoonotic spillover intelligence platform',
 };
