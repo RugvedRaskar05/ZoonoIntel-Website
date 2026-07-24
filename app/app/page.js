@@ -2,7 +2,7 @@ export default function AppPage() {
   return (
     <div style={{ height: "100vh", width: "100%", background: "#0A1A2F" }}>
       <iframe
-        src="https://zoonointel-38b8.onrender.com"
+        src="https://zoonointel-ne7d.onrender.com"
         style={{
           width: "100%",
           height: "100%",
