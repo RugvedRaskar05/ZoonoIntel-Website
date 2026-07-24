@@ -3,7 +3,7 @@ export default function AboutPage() {
     <main style={{ padding: "40px", color: "white" }}>
       <h1>About ZoonoIntel</h1>
       <p>
-        ZoonoIntel uses AI to highlight mammal species that resemble known virus reservoirs based on their ecological, biological, and environmental traits. Rather than predicting danger or spillover events, the platform provides a surveillance‑priority signal — an early indicator of which species may deserve closer monitoring.
+        ZoonoIntel uses AI to highlight mammal species that resemble known virus reservoirs based on their ecological, biological, and environmental traits. Rather than predicting danger or spillover events, the platform provides a surveillance‑priority signal, an early indicator of which species may deserve closer monitoring.
 
 Many emerging infectious diseases originate in wildlife, yet most mammal species have never been sampled for viruses. Trait‑based modeling offers a way to fill this gap by identifying species that share characteristics with known zoonotic hosts. These characteristics include ecological flexibility, geographic range, life‑history patterns, and environmental conditions associated with viral richness.
 
