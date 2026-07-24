@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
             <a href="/" className="nav-link">Home</a>
             <a href="/app" className="nav-link">App</a>
             <a href="/about" className="nav-link">About</a>
-            <a href="/figures" className="nav-link">Figures</a>
+            <a href="/figures" className="nav-link">Top 5 Species</a>
           </div>
         </nav>
 
