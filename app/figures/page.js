@@ -18,7 +18,7 @@ export default function FiguresPage() {
         {/* Red Fox */}
         <div>
           <img 
-            src="/images/red_fox.jpg" 
+            src="/public/red_fox.jpg" 
             alt="Red Fox" 
             style={{ width: "250px", borderRadius: "10px", marginBottom: "15px" }}
           />
@@ -34,7 +34,7 @@ export default function FiguresPage() {
         {/* Brown Bear */}
         <div>
           <img 
-            src="/images/brown_bear.jpg" 
+            src="/public/brown_bear.jpg" 
             alt="Brown Bear" 
             style={{ width: "250px", borderRadius: "10px", marginBottom: "15px" }}
           />
@@ -49,7 +49,7 @@ export default function FiguresPage() {
         {/* Leopard */}
         <div>
           <img 
-            src="/images/leopard.jpg" 
+            src="/public/leopard.jpg" 
             alt="Leopard" 
             style={{ width: "250px", borderRadius: "10px", marginBottom: "15px" }}
           />
@@ -64,7 +64,7 @@ export default function FiguresPage() {
         {/* Grey Wolf */}
         <div>
           <img 
-            src="/images/grey_wolf.jpg" 
+            src="/public/grey_wolf.jpg" 
             alt="Grey Wolf" 
             style={{ width: "250px", borderRadius: "10px", marginBottom: "15px" }}
           />
@@ -79,7 +79,7 @@ export default function FiguresPage() {
         {/* Coyote */}
         <div>
           <img 
-            src="/images/coyote.jpg" 
+            src="/public/coyote.jpg" 
             alt="Coyote" 
             style={{ width: "250px", borderRadius: "10px", marginBottom: "15px" }}
           />
