@@ -1,4 +1,3 @@
-
 //redeploy fix
 export default function FiguresPage() {
   return (
