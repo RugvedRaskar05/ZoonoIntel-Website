@@ -1,3 +1,5 @@
+
+//redeploy fix
 export default function FiguresPage() {
   return (
     <main style={{ padding: "40px", color: "white", maxWidth: "900px", margin: "0 auto" }}>
