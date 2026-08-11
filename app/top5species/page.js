@@ -9,7 +9,7 @@ export default function FiguresPage() {
       <p style={{ fontSize: "18px", lineHeight: "1.6", marginBottom: "40px" }}>
         ZoonoIntel highlights mammal species whose ecological and biological traits 
         resemble those of known virus reservoirs. These species score highly on the 
-        Sentinel Score — a trait‑based signal of reservoir potential, not a prediction 
+        Sentinel Score, a trait‑based signal of reservoir potential, not a prediction 
         of danger or spillover.
       </p>
 
