@@ -12,21 +12,29 @@
   text-align: left;
 }
 
-/* Mobile optimization */
+/* Make images responsive */
+.species-card img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+}
+
+/* Make the layout adapt on phones */
 @media (max-width: 600px) {
   main {
     padding: 20px !important;
   }
 
-  h1 {
-    font-size: 28px !important;
+  .species-card img {
+    max-width: 100%;
+  }
+
+  h2 {
+    font-size: 20px !important;
   }
 
   p {
     font-size: 16px !important;
-  }
-
-  .species-card img {
-    max-width: 100%;
+    line-height: 1.6;
   }
 }
