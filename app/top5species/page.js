@@ -22,7 +22,7 @@ export default function FiguresPage() {
           <img 
             src="/images/red_fox.jpg" 
             alt="Red Fox" 
-            style={{ width: "250px", borderRadius: "10px", marginBottom: "15px" }}
+            style={{ width: "1000px", borderRadius: "10px", marginBottom: "15px" }}
           />
           <p style={{ lineHeight: "1.6" }}>
             Red foxes are highly adaptable and thrive in forests, grasslands, suburbs, 
