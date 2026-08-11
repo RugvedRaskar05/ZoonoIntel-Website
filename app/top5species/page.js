@@ -18,12 +18,12 @@ export default function FiguresPage() {
 
         {/* Red Fox */}
         <div>
+           <h2>Red Fox (<i>Vulpes vulpes</i>)</h2>
           <img 
             src="/images/red_fox.jpg" 
             alt="Red Fox" 
             style={{ width: "250px", borderRadius: "10px", marginBottom: "15px" }}
           />
-          <h2>Red Fox (<i>Vulpes vulpes</i>)</h2>
           <p style={{ lineHeight: "1.6" }}>
             Red foxes are highly adaptable and thrive in forests, grasslands, suburbs, 
             and even urban environments. Their broad geographic range, omnivorous diet, 
@@ -34,12 +34,12 @@ export default function FiguresPage() {
 
         {/* Brown Bear */}
         <div>
+          <h2>Brown Bear (<i>Ursus arctos</i>)</h2>
           <img 
             src="/images/brown_bear.jpg" 
             alt="Brown Bear" 
-            style={{ width: "250px", borderRadius: "10px", marginBottom: "15px" }}
+            style={{ width: "1000px", borderRadius: "10px", marginBottom: "15px" }}
           />
-          <h2>Brown Bear (<i>Ursus arctos</i>)</h2>
           <p style={{ lineHeight: "1.6" }}>
             Brown bears occupy wide territories across North America, Europe, and Asia. 
             Their long lifespans, environmental tolerance, and complex ecological 
@@ -49,12 +49,12 @@ export default function FiguresPage() {
 
         {/* Leopard */}
         <div>
+          <h2>Leopard (<i>Panthera pardus</i>)</h2>
           <img 
             src="/images/leopard.jpg" 
             alt="Leopard" 
-            style={{ width: "250px", borderRadius: "10px", marginBottom: "15px" }}
+            style={{ width: "1000px", borderRadius: "10px", marginBottom: "15px" }}
           />
-          <h2>Leopard (<i>Panthera pardus</i>)</h2>
           <p style={{ lineHeight: "1.6" }}>
             Leopards are highly adaptable large carnivores capable of living in forests, 
             savannas, mountains, and even near human settlements. Their ecological 
@@ -64,12 +64,12 @@ export default function FiguresPage() {
 
         {/* Grey Wolf */}
         <div>
+          <h2>Grey Wolf (<i>Canis lupus</i>)</h2>
           <img 
             src="/images/grey_wolf.jpg" 
             alt="Grey Wolf" 
-            style={{ width: "250px", borderRadius: "10px", marginBottom: "15px" }}
+            style={{ width: "1000px", borderRadius: "10px", marginBottom: "15px" }}
           />
-          <h2>Grey Wolf (<i>Canis lupus</i>)</h2>
           <p style={{ lineHeight: "1.6" }}>
             Grey wolves have extensive ranges across the Northern Hemisphere and display 
             strong environmental tolerance. Their social structure, mobility, and 
@@ -79,12 +79,12 @@ export default function FiguresPage() {
 
         {/* Coyote */}
         <div>
+          <h2>Coyote (<i>Canis latrans</i>)</h2>
           <img 
             src="/images/coyote.jpg" 
             alt="Coyote" 
-            style={{ width: "250px", borderRadius: "10px", marginBottom: "15px" }}
+            style={{ width: "1000px", borderRadius: "10px", marginBottom: "15px" }}
           />
-          <h2>Coyote (<i>Canis latrans</i>)</h2>
           <p style={{ lineHeight: "1.6" }}>
             Coyotes are one of the most ecologically flexible mammals in North America. 
             They thrive in deserts, forests, grasslands, and cities. Their rapid 
