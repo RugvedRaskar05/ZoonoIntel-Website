@@ -17,7 +17,7 @@ export default function FiguresPage() {
       <section style={{ display: "flex", flexDirection: "column", gap: "40px" }}>
 
         {/* Red Fox */}
-        <div>
+        <div className="species-card">
            <h2>Red Fox (<i>Vulpes vulpes</i>)</h2>
           <img 
             src="/images/red_fox.jpg" 
@@ -38,7 +38,7 @@ export default function FiguresPage() {
         </div>
 
         {/* Brown Bear */}
-        <div>
+        <div className="species-card">
           <h2>Brown Bear (<i>Ursus arctos</i>)</h2>
           <img 
             src="/images/brown_bear.jpg" 
@@ -58,7 +58,7 @@ export default function FiguresPage() {
         </div>
 
         {/* Leopard */}
-        <div>
+        <div className="species card">
           <h2>Leopard (<i>Panthera pardus</i>)</h2>
           <img 
             src="/images/leopard.jpg" 
@@ -77,7 +77,7 @@ export default function FiguresPage() {
         </div>
 
         {/* Grey Wolf */}
-        <div>
+        <div className="species card">
           <h2>Grey Wolf (<i>Canis lupus</i>)</h2>
           <img 
             src="/images/grey_wolf.jpg" 
@@ -97,7 +97,7 @@ export default function FiguresPage() {
         </div>
 
         {/* Coyote */}
-        <div>
+        <div className="species card">
           <h2>Coyote (<i>Canis latrans</i>)</h2>
           <img 
             src="/images/coyote.jpg" 
