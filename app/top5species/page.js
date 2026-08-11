@@ -1,7 +1,16 @@
 //redeploy fix
 export default function FiguresPage() {
   return (
-    <main style={{ padding: "40px", color: "white", maxWidth: "900px", margin: "0 auto" }}>
+    <main
+      style={{
+        padding: "40px",
+        color: "white",
+        maxWidth: "900px",
+        margin: "0 auto",
+        width: "100%",
+        boxSizing: "border-box"
+      }}
+    >
       <h1 style={{ fontSize: "36px", marginBottom: "20px" }}>
         Top 5 Highest‑Scoring Species
       </h1>
@@ -18,22 +27,27 @@ export default function FiguresPage() {
 
         {/* Red Fox */}
         <div className="species-card">
-           <h2>Red Fox (<i>Vulpes vulpes</i>)</h2>
+          <h2>Red Fox (<i>Vulpes vulpes</i>)</h2>
           <img 
             src="/images/red_fox.jpg" 
-            alt="Red Fox" 
-            style={{ width: "1000px", borderRadius: "10px", marginBottom: "15px" }}
+            alt="Red Fox"
+            style={{
+              width: "100%",
+              maxWidth: "1000px",
+              borderRadius: "10px",
+              marginBottom: "15px"
+            }}
           />
           <p style={{ lineHeight: "1.6" }}>
-           Red foxes are among the most widely distributed carnivores on Earth, thriving in
-           environments ranging from dense forests and tundra to farmland, suburbs, and
-           major cities. Their omnivorous diet, high behavioral flexibility, and ability to exploit
-           human‑modified landscapes make them remarkably successful generalists. These
-           traits contribute to a reservoir‑like ecological profile, as species with broad niches
-           often interact with diverse wildlife and environmental sources. Fun fact: Red
-           foxes use a unique “pounce” technique to hunt, leaping high into the air and
-           diving headfirst, and they’re more accurate when facing north due to a
-           mysterious magnetic alignment behavior.
+            Red foxes are among the most widely distributed carnivores on Earth, thriving in
+            environments ranging from dense forests and tundra to farmland, suburbs, and
+            major cities. Their omnivorous diet, high behavioral flexibility, and ability to exploit
+            human‑modified landscapes make them remarkably successful generalists. These
+            traits contribute to a reservoir‑like ecological profile, as species with broad niches
+            often interact with diverse wildlife and environmental sources. Fun fact: Red
+            foxes use a unique “pounce” technique to hunt, leaping high into the air and
+            diving headfirst, and they’re more accurate when facing north due to a
+            mysterious magnetic alignment behavior.
           </p>
         </div>
 
@@ -42,8 +56,13 @@ export default function FiguresPage() {
           <h2>Brown Bear (<i>Ursus arctos</i>)</h2>
           <img 
             src="/images/brown_bear.jpg" 
-            alt="Brown Bear" 
-            style={{ width: "1000px", borderRadius: "10px", marginBottom: "15px" }}
+            alt="Brown Bear"
+            style={{
+              width: "100%",
+              maxWidth: "1000px",
+              borderRadius: "10px",
+              marginBottom: "15px"
+            }}
           />
           <p style={{ lineHeight: "1.6" }}>
             Brown bears are powerful omnivores with enormous home ranges and complex
@@ -58,12 +77,17 @@ export default function FiguresPage() {
         </div>
 
         {/* Leopard */}
-        <div className="species card">
+        <div className="species-card">
           <h2>Leopard (<i>Panthera pardus</i>)</h2>
           <img 
             src="/images/leopard.jpg" 
-            alt="Leopard" 
-            style={{ width: "1000px", borderRadius: "10px", marginBottom: "15px" }}
+            alt="Leopard"
+            style={{
+              width: "100%",
+              maxWidth: "1000px",
+              borderRadius: "10px",
+              marginBottom: "15px"
+            }}
           />
           <p style={{ lineHeight: "1.6" }}>
             Leopards are stealthy, adaptable predators capable of living in rainforests,
@@ -77,12 +101,17 @@ export default function FiguresPage() {
         </div>
 
         {/* Grey Wolf */}
-        <div className="species card">
+        <div className="species-card">
           <h2>Grey Wolf (<i>Canis lupus</i>)</h2>
           <img 
             src="/images/grey_wolf.jpg" 
-            alt="Grey Wolf" 
-            style={{ width: "1000px", borderRadius: "10px", marginBottom: "15px" }}
+            alt="Grey Wolf"
+            style={{
+              width: "100%",
+              maxWidth: "1000px",
+              borderRadius: "10px",
+              marginBottom: "15px"
+            }}
           />
           <p style={{ lineHeight: "1.6" }}>
             Grey wolves are highly social carnivores that form complex pack structures and
@@ -97,12 +126,17 @@ export default function FiguresPage() {
         </div>
 
         {/* Coyote */}
-        <div className="species card">
+        <div className="species-card">
           <h2>Coyote (<i>Canis latrans</i>)</h2>
           <img 
             src="/images/coyote.jpg" 
-            alt="Coyote" 
-            style={{ width: "1000px", borderRadius: "10px", marginBottom: "15px" }}
+            alt="Coyote"
+            style={{
+              width: "100%",
+              maxWidth: "1000px",
+              borderRadius: "10px",
+              marginBottom: "15px"
+            }}
           />
           <p style={{ lineHeight: "1.6" }}>
             Coyotes are exceptional survivors, thriving in deserts, prairies, forests, and
