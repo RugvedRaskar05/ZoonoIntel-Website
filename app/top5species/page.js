@@ -25,10 +25,15 @@ export default function FiguresPage() {
             style={{ width: "1000px", borderRadius: "10px", marginBottom: "15px" }}
           />
           <p style={{ lineHeight: "1.6" }}>
-            Red foxes are highly adaptable and thrive in forests, grasslands, suburbs, 
-            and even urban environments. Their broad geographic range, omnivorous diet, 
-            and ecological flexibility contribute to a trait profile similar to known 
-            reservoirs.
+           Red foxes are among the most widely distributed carnivores on Earth, thriving in
+           environments ranging from dense forests and tundra to farmland, suburbs, and
+           major cities. Their omnivorous diet, high behavioral flexibility, and ability to exploit
+           human‑modified landscapes make them remarkably successful generalists. These
+           traits contribute to a reservoir‑like ecological profile, as species with broad niches
+           often interact with diverse wildlife and environmental sources. Fun fact: Red
+           foxes use a unique “pounce” technique to hunt, leaping high into the air and
+           diving headfirst, and they’re more accurate when facing north due to a
+           mysterious magnetic alignment behavior.
           </p>
         </div>
 
@@ -41,9 +46,14 @@ export default function FiguresPage() {
             style={{ width: "1000px", borderRadius: "10px", marginBottom: "15px" }}
           />
           <p style={{ lineHeight: "1.6" }}>
-            Brown bears occupy wide territories across North America, Europe, and Asia. 
-            Their long lifespans, environmental tolerance, and complex ecological 
-            interactions contribute to elevated reservoir‑potential signals.
+            Brown bears are powerful omnivores with enormous home ranges and complex
+            seasonal behaviors. They occupy habitats from alpine meadows to coastal forests
+            and can shift diets dramatically depending on food availability: berries, roots,
+            fish, insects, and even carrion. Their long lifespans, ecological versatility, and
+            extensive movement patterns create many opportunities for environmental
+            interactions, which contribute to elevated Sentinel Scores. Fun fact: Brown bears
+            can smell food from more than 18 miles (29 km) away, making their sense of smell
+            one of the strongest of any land mammal.
           </p>
         </div>
 
@@ -56,9 +66,13 @@ export default function FiguresPage() {
             style={{ width: "1000px", borderRadius: "10px", marginBottom: "15px" }}
           />
           <p style={{ lineHeight: "1.6" }}>
-            Leopards are highly adaptable large carnivores capable of living in forests, 
-            savannas, mountains, and even near human settlements. Their ecological 
-            versatility and wide distribution contribute to high Sentinel Scores.
+            Leopards are stealthy, adaptable predators capable of living in rainforests,
+            savannas, mountains, and even near villages and cities. Their solitary nature, wide
+            distribution across Africa and Asia, and ability to hunt over 90 different prey
+            species highlight their ecological flexibility. This versatility mirrors patterns seen
+            in known reservoir species, which often thrive across varied environments. Fun
+            fact: Leopards are incredibly strong climbers, they can haul prey heavier than
+            themselves up trees to avoid scavengers.
           </p>
         </div>
 
@@ -71,9 +85,14 @@ export default function FiguresPage() {
             style={{ width: "1000px", borderRadius: "10px", marginBottom: "15px" }}
           />
           <p style={{ lineHeight: "1.6" }}>
-            Grey wolves have extensive ranges across the Northern Hemisphere and display 
-            strong environmental tolerance. Their social structure, mobility, and 
-            ecological interactions create trait patterns similar to known reservoirs.
+            Grey wolves are highly social carnivores that form complex pack structures and
+            travel long distances across forests, tundra, grasslands, and mountains. Their
+            cooperative hunting, territorial behavior, and adaptability to harsh climates make
+            them one of the most ecologically influential mammals in the Northern
+            Hemisphere. Wolves’ mobility and interactions with diverse prey species
+            contribute to reservoir‑like trait patterns. Fun fact: Wolves can communicate
+            using over a dozen vocalizations, including howls that can travel up to 10 miles (16
+            km) across open terrain.
           </p>
         </div>
 
@@ -86,10 +105,13 @@ export default function FiguresPage() {
             style={{ width: "1000px", borderRadius: "10px", marginBottom: "15px" }}
           />
           <p style={{ lineHeight: "1.6" }}>
-            Coyotes are one of the most ecologically flexible mammals in North America. 
-            They thrive in deserts, forests, grasslands, and cities. Their rapid 
-            expansion into human‑dominated landscapes and omnivorous diet contribute to 
-            reservoir‑like trait profiles.
+            Coyotes are exceptional survivors, thriving in deserts, prairies, forests, and
+            increasingly in suburban and urban environments. Their omnivorous diet, rapid
+            range expansion, and ability to adjust behavior in response to human activity
+            make them one of North America’s most adaptable mammals. These traits align
+            closely with species known to exhibit reservoir‑like ecological profiles. Fun fact:
+            Coyotes can run up to 40 mph (64 km/h), making them faster than most domestic
+            dogs.
           </p>
         </div>
 
