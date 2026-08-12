@@ -123,29 +123,23 @@
   border: 1px solid rgba(148, 163, 184, 0.35);
   backdrop-filter: blur(10px);
 
-  /* Full Page Neon Pulse Reveal */
-@keyframes pageNeonPulse {
+  /* Neon Pulse Reveal Animation */
+@keyframes neonPulseReveal {
   0% {
     opacity: 0;
-    transform: scale(0.985);
+    transform: scale(0.96);
     filter: drop-shadow(0 0 0px #00c8ff);
   }
   40% {
     opacity: 1;
-    transform: scale(1.01);
-    filter: drop-shadow(0 0 10px #00c8ff);
+    transform: scale(1.02);
+    filter: drop-shadow(0 0 8px #00c8ff);
   }
   100% {
     opacity: 1;
     transform: scale(1);
     filter: drop-shadow(0 0 0px #00c8ff);
   }
-}
-
-/* Apply to entire page container */
-.page-transition {
-  animation: pageNeonPulse 0.9s ease-out forwards;
-  opacity: 0;
 }
 
 /* Button Pulse Animation */
