@@ -3,8 +3,8 @@ import './globals.css';
 import Footer from '../components/Footer';
 
 export const metadata = {
-  title: 'Nature never stops, so why should we?',
-  description: 'preparing for spillover is key',
+  title: 'Zoonointel',
+  description: 'The AI-powered zoonotic resevoir potential intelligence platform.',
 };
 
 export default function RootLayout({ children }) {
