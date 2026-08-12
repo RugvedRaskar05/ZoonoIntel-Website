@@ -33,7 +33,7 @@ export default function FiguresPage() {
             alt="Red Fox"
             style={{
               width: "100%",
-              maxWidth: "1000px",
+              maxWidth: "600px",
               borderRadius: "10px",
               marginBottom: "15px"
             }}
@@ -59,7 +59,7 @@ export default function FiguresPage() {
             alt="Brown Bear"
             style={{
               width: "100%",
-              maxWidth: "1000px",
+              maxWidth: "600px",
               borderRadius: "10px",
               marginBottom: "15px"
             }}
@@ -70,9 +70,8 @@ export default function FiguresPage() {
             and can shift diets dramatically depending on food availability: berries, roots,
             fish, insects, and even carrion. Their long lifespans, ecological versatility, and
             extensive movement patterns create many opportunities for environmental
-            interactions, which contribute to elevated Sentinel Scores. Fun fact: Brown bears
-            can smell food from more than 18 miles (29 km) away, making their sense of smell
-            one of the strongest of any land mammal.
+            interactions. Fun fact: Brown bears can smell food from more than 18 miles away,
+            making their sense of smell one of the strongest of any land mammal.
           </p>
         </div>
 
@@ -84,7 +83,7 @@ export default function FiguresPage() {
             alt="Leopard"
             style={{
               width: "100%",
-              maxWidth: "1000px",
+              maxWidth: "600px",
               borderRadius: "10px",
               marginBottom: "15px"
             }}
@@ -93,10 +92,9 @@ export default function FiguresPage() {
             Leopards are stealthy, adaptable predators capable of living in rainforests,
             savannas, mountains, and even near villages and cities. Their solitary nature, wide
             distribution across Africa and Asia, and ability to hunt over 90 different prey
-            species highlight their ecological flexibility. This versatility mirrors patterns seen
-            in known reservoir species, which often thrive across varied environments. Fun
-            fact: Leopards are incredibly strong climbers, they can haul prey heavier than
-            themselves up trees to avoid scavengers.
+            species highlight their ecological flexibility. Fun fact: Leopards are incredibly
+            strong climbers and can haul prey heavier than themselves up trees to avoid
+            scavengers.
           </p>
         </div>
 
@@ -108,7 +106,7 @@ export default function FiguresPage() {
             alt="Grey Wolf"
             style={{
               width: "100%",
-              maxWidth: "1000px",
+              maxWidth: "600px",
               borderRadius: "10px",
               marginBottom: "15px"
             }}
@@ -118,10 +116,8 @@ export default function FiguresPage() {
             travel long distances across forests, tundra, grasslands, and mountains. Their
             cooperative hunting, territorial behavior, and adaptability to harsh climates make
             them one of the most ecologically influential mammals in the Northern
-            Hemisphere. Wolves’ mobility and interactions with diverse prey species
-            contribute to reservoir‑like trait patterns. Fun fact: Wolves can communicate
-            using over a dozen vocalizations, including howls that can travel up to 10 miles (16
-            km) across open terrain.
+            Hemisphere. Fun fact: Wolves can communicate using over a dozen vocalizations,
+            including howls that can travel up to 10 miles across open terrain.
           </p>
         </div>
 
@@ -133,7 +129,7 @@ export default function FiguresPage() {
             alt="Coyote"
             style={{
               width: "100%",
-              maxWidth: "1000px",
+              maxWidth: "600px",
               borderRadius: "10px",
               marginBottom: "15px"
             }}
@@ -142,10 +138,8 @@ export default function FiguresPage() {
             Coyotes are exceptional survivors, thriving in deserts, prairies, forests, and
             increasingly in suburban and urban environments. Their omnivorous diet, rapid
             range expansion, and ability to adjust behavior in response to human activity
-            make them one of North America’s most adaptable mammals. These traits align
-            closely with species known to exhibit reservoir‑like ecological profiles. Fun fact:
-            Coyotes can run up to 40 mph (64 km/h), making them faster than most domestic
-            dogs.
+            make them one of North America’s most adaptable mammals. Fun fact: Coyotes
+            can run up to 40 mph, making them faster than most domestic dogs.
           </p>
         </div>
 
