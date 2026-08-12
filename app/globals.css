@@ -178,17 +178,24 @@
   text-shadow: 0 0 8px rgba(0, 174, 239, 0.6);
 }
 
-/* Fade-up animation */
-@keyframes fadeUp {
-  from {
+/* Full Page Soft Slide + Fade */
+@keyframes pageSoftFade {
+  0% {
     opacity: 0;
-    transform: translateY(18px);
+    transform: translateY(12px);
   }
-  to {
+  100% {
     opacity: 1;
     transform: translateY(0);
   }
 }
+
+/* Apply to entire page container */
+.page-transition {
+  opacity: 0;
+  animation: pageSoftFade 0.6s ease-out forwards;
+}
+
 
 /* Apply fade-up to content sections */
 .content-section {
