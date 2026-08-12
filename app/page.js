@@ -9,9 +9,9 @@ export default function Home() {
           alt="ZoonoIntel Logo"
           className="hero-logo"
         />
-        <h1 className="hero-title">ZoonoIntel</h1>
+        <h1 className="hero-title">Nature never stops, so why should we?</h1>
         <p className="hero-tagline">
-          The AI-powered zoonotic spillover risk intelligence platform.
+          Preparing for spillover is key.
         </p>
 
         <a href="/app" className="launch-button">
