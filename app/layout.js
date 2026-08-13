@@ -2,12 +2,6 @@
 import './globals.css';
 import Footer from '../components/Footer';
 
-<body>
-  <div className="page-transition">
-    {children}
-  </div>
-</body>
-
 export const metadata = {
   title: 'Zoonointel',
   description: 'The AI-powered zoonotic resevoir potential intelligence platform.',
