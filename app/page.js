@@ -4,8 +4,6 @@ export default function Home() {
     <main className="home-main">
       {/* Hero Section */}
       <section className="hero">
-    <br />
-<br />
         <img
           src="https://i.imgur.com/H6mWX4Z.png"
           alt="ZoonoIntel Logo"
