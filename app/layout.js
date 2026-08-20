@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
           <div className="nav-left">ZoonoIntel</div>
           <div className="nav-right">
             <a href="/" className="nav-link">Home</a>
-            <a href="/app" className="nav-link">App</a>
+            <a href="/zoonoapp" className="nav-link">App</a>
             <a href="/about" className="nav-link">About</a>
             <a href="/top5species" className="nav-link">Top 5 Species</a>
           </div>
