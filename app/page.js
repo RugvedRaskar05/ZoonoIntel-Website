@@ -14,7 +14,7 @@ export default function Home() {
           Preparing for spillover is key.
         </p>
 
-        <a href="/zoonoapp" className="launch-button">
+        <a href="/app" className="launch-button">
           Launch App
         </a>
       </section>
