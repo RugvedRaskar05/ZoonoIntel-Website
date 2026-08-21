@@ -14,7 +14,7 @@ export default function Home() {
           Preparing for spillover is key.
         </p>
 
-        <a href="/zoonoapp" className="launch-button">
+        <a href="/app" className="launch-button">
           Launch App
         </a>
       </section>
@@ -68,18 +68,3 @@ export default function Home() {
               patterns easier to explore and understand.
         </p>
       </section>
-
-      <section className="content-section">
-        <h2>ISEF Project Summary</h2>
-        <p>
-          ZoonoIntel was created as a research project to explore how AI can help
-          identify mammal species that resemble known virus reservoirs. It brings
-          together scientific data, machine‑learning methods, and interactive
-          visualization in one platform.
-        </p>
-      </section>
-    </main>
-  );
-}
-
-
