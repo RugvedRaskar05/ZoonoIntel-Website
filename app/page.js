@@ -52,7 +52,7 @@ export default function Home() {
         <h2>What ZoonoIntel does not do</h2>
         <p>
          ZoonoIntel does not predict outbreaks, label species as dangerous, or say where spillover will happen.
-         It’s simply a tool to help guide early attention — a starting point for learning and exploration,
+         It’s simply a tool to help guide early attention, a starting point for learning and exploration,
          not a replacement for field or lab research
         </p>
       </section>
@@ -61,16 +61,6 @@ export default function Home() {
         <h2>Try the App</h2>
         <p>
          Explore species, view Sentinel Scores, and see the top traits driving each prediction, all in a simple, interactive web app.
-        </p>
-      </section>
-
-      <section className="content-section">
-        <h2>ISEF Project Summary</h2>
-        <p>
-          ZoonoIntel was created as a research project to explore how AI can help
-          identify mammal species that resemble known virus reservoirs. It brings
-          together scientific data, machine‑learning methods, and interactive
-          visualization in one platform.
         </p>
       </section>
     </main>
