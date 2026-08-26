@@ -31,41 +31,36 @@ export default function Home() {
       </section>
 
       <section className="content-section">
-        <h2>The Science Behind It</h2>
+        <h2>Why does ZoonoIntel matter?</h2>
         <p>
-          The platform combines ecological and environmental traits to identify
-          mammal species that look like known virus reservoirs. It offers a Sentinel
-          Score to guide surveillance attention — not a prediction of spillover or where
-          outbreaks will occur.
+         Most new human diseases start in animals, but scientists can only monitor a tiny fraction of the world’s 5,000+ mammal species.
+         ZoonoIntel helps by making that huge search easier. It highlights species that might deserve a closer look,
+         giving researchers and students a simple way to explore the biology behind spillover risk.
         </p>
       </section>
 
       <section className="content-section">
-        <h2>How the Model Works</h2>
+        <h2>How does ZoonoIntel work?</h2>
         <p>
-          ZoonoIntel uses machine learning to combine mammalian traits and ecological
-          data, identifying species that look like known virus reservoirs. It generates a
-          Sentinel Score and interactive visualizations to guide early‑stage surveillance,
-          not to predict spillover events or hotspots.
+         ZoonoIntel looks at basic information about each mammal, like body size, range, and how often it overlaps with people,
+         and uses machine learning to find patterns shared by known virus‑carrying species.
+         From those patterns, it creates a Sentinel Score and clear visual explanations that show why a species ranked the way it did.
         </p>
       </section>
 
       <section className="content-section">
-        <h2>Drivers & Risk Factors</h2>
+        <h2>What ZoonoIntel does not do</h2>
         <p>
-          Key drivers include ecological traits, environmental conditions, and biological
-          characteristics of mammal species. By highlighting these factors, ZoonoIntel
-          helps users explore why some species may resemble known virus reservoirs
-          and deserve closer monitoring.
+         ZoonoIntel does not predict outbreaks, label species as dangerous, or say where spillover will happen.
+         It’s simply a tool to help guide early attention — a starting point for learning and exploration,
+         not a replacement for field or lab research
         </p>
       </section>
 
       <section className="content-section">
-        <h2>Why Spillover Prediction Matters</h2>
+        <h2>Try the App</h2>
         <p>
-          Early insight into which species resemble known virus reservoirs can help
-            guide surveillance and preparedness. ZoonoIntel makes complex zoonotic‑risk
-              patterns easier to explore and understand.
+         Explore species, view Sentinel Scores, and see the top traits driving each prediction, all in a simple, interactive web app.
         </p>
       </section>
 
